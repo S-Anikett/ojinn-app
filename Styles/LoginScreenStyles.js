@@ -1,0 +1,53 @@
+import { StyleSheet } from "react-native"
+const LoginScreenStyles=StyleSheet.create({
+    title:{
+        fontWeight:600,
+        fontSize:24,
+        lineHeight: 32,
+        color:"#3584EF",
+        marginHorizontal:20,
+        marginTop:113
+    },
+    image:{
+        height:325,
+        width:320,
+        marginTop:56,
+        alignSelf:"center"
+    },
+    bottomContainer:{
+        flex:0.2,
+        backgroundColor:"#3584EF",
+        borderTopRightRadius:16,
+        borderTopLeftRadius:16
+    },
+    subBottomContainer:{
+        flexDirection:"row",
+        height:48,
+        width:320,
+        backgroundColor:"white",
+        alignSelf:"center",
+        marginTop:16,
+        borderRadius:10,
+        alignItems:"center",
+        justifyContent:"center"
+    },
+    subBottomContainerImage:{
+        height:32,
+        width:32,
+        marginRight:14
+    },
+    subBottomContainerText1:{
+        textAlign:"center",
+        marginVertical:16,
+        color:"white",
+        fontWeight:400,
+        fontSize:12
+    },
+    subBottomContainerText2:{
+        textAlign:"center",
+        color:"white",
+        fontWeight:700,
+        fontSize:14
+    }
+})
+export default LoginScreenStyles
